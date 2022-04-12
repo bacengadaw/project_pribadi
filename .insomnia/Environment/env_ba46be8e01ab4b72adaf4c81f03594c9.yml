@@ -1,0 +1,18 @@
+_id: env_ba46be8e01ab4b72adaf4c81f03594c9
+type: Environment
+parentId: wrk_c8d98f74ad5b4df2b7bb57c5f8ff5a30
+modified: 1649754498552
+created: 1649662874131
+name: Base Environment
+data:
+  URL_BACKEND: http://localhost:7013/
+  X-OWNER: YmRnLXNpbXJzLWRvY28tZGV2ZWxvcG1lbnQ
+  BEARER: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiYWNjZXNzX3Rva2VuIjoiMTAwLXRva2VuIiwianRpIjoiYjVkYzVmMGYwMGY5ZTY5Y2Y2YjNhMGJiZWRkOTNmNjdmMjhhYjQ1OWEzODc5M2JkMjgyNWQzZjc3MzI1OWVmNiIsImlzX21vYmlsZSI6MCwiaXNfYWxsX2V4cGVydGlzZV9sYWIiOnRydWUsInNpZ25hdHVyZV9wYXRoIjoiZHIgSGFydW4gUm9zaWRpIC0gMTA5NC5naWYifQ.R51c6CzJdjuFOKG3X61fjUrw6YQ9ejej6uz7aVyarxo
+dataPropertyOrder:
+  "&":
+    - URL_BACKEND
+    - X-OWNER
+    - BEARER
+color: null
+isPrivate: false
+metaSortKey: 1646517122916

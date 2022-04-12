@@ -1,0 +1,30 @@
+_id: req_47707546ca79452f946380061209d7ad
+type: Request
+parentId: wrk_c8d98f74ad5b4df2b7bb57c5f8ff5a30
+modified: 1649754665579
+created: 1649663312363
+url: " {{ _.URL_PRODUCTION }}/api/login"
+name: My Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+     "email": "kasatlantaspolresta_palembang@ditlantas-poldasumsel.id",
+     "password": "aaa123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_69245c4413e441fc89b541544b21b303
+authentication: {}
+metaSortKey: -1649663312428
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
