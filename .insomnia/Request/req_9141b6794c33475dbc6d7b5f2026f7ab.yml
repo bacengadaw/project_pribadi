@@ -1,20 +1,29 @@
-_id: req_eef9d345d1514b1eb07d5ac99b918f5b
+_id: req_9141b6794c33475dbc6d7b5f2026f7ab
 type: Request
 parentId: wrk_c8d98f74ad5b4df2b7bb57c5f8ff5a30
-modified: 1649785551833
-created: 1649744083912
-url: "{{ _.URL_PRODUCTION }}/api/log-activity"
-name: log activity
+modified: 1649785580396
+created: 1649779970273
+url: "{{ _.URL_PRODUCTION }}/api/check_version"
+name: Get Version
 description: ""
-method: GET
-body: {}
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"app_version" : "1.0.9b7",
+    	"api_version" : "2.0"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9c8b1a93e6ea4c4ba35625c996ea697a
 authentication:
   type: bearer
   token: "{% response 'body', 'req_47707546ca79452f946380061209d7ad',
     'b64::JC5kYXRhLnRva2Vu::46b', 'never', 60 %}"
-metaSortKey: -1649744083912
+metaSortKey: -1649723891041
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

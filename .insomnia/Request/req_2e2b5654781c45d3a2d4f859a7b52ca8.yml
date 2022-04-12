@@ -1,16 +1,16 @@
 _id: req_2e2b5654781c45d3a2d4f859a7b52ca8
 type: Request
 parentId: wrk_c8d98f74ad5b4df2b7bb57c5f8ff5a30
-modified: 1649779058641
+modified: 1649782244018
 created: 1649775591043
-url: "{{ _.URL_LOCAL }}/api/data-mission"
+url: "{{ _.URL_API_LAKALANTAS }}/api/data-mission"
 name: get data mission
 description: ""
 method: GET
 body: {}
 parameters:
   - name: getstatus
-    value: "1"
+    value: "2"
     disabled: false
     id: pair_022b7b8825304bb9b1dc7835864388fd
 headers: []

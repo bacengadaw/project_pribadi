@@ -1,9 +1,9 @@
 _id: req_47707546ca79452f946380061209d7ad
 type: Request
 parentId: wrk_c8d98f74ad5b4df2b7bb57c5f8ff5a30
-modified: 1649779043967
+modified: 1649785541494
 created: 1649663312363
-url: " {{ _.URL_LOCAL }}/api/login"
+url: " {{ _.URL_PRODUCTION }}/api/login"
 name: Login
 description: ""
 method: POST
