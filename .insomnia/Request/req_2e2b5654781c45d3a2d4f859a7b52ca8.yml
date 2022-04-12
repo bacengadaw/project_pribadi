@@ -1,20 +1,24 @@
-_id: req_eef9d345d1514b1eb07d5ac99b918f5b
+_id: req_2e2b5654781c45d3a2d4f859a7b52ca8
 type: Request
 parentId: wrk_c8d98f74ad5b4df2b7bb57c5f8ff5a30
-modified: 1649779047163
-created: 1649744083912
-url: "{{ _.URL_LOCAL }}/api/log-activity"
-name: log activity
+modified: 1649779058641
+created: 1649775591043
+url: "{{ _.URL_LOCAL }}/api/data-mission"
+name: get data mission
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - name: getstatus
+    value: "1"
+    disabled: false
+    id: pair_022b7b8825304bb9b1dc7835864388fd
 headers: []
 authentication:
   type: bearer
   token: "{% response 'body', 'req_47707546ca79452f946380061209d7ad',
     'b64::JC5kYXRhLnRva2Vu::46b', 'never', 60 %}"
-metaSortKey: -1649744083912
+metaSortKey: -1649703698170
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
