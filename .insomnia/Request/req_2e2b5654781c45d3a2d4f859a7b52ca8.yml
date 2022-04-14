@@ -1,7 +1,7 @@
 _id: req_2e2b5654781c45d3a2d4f859a7b52ca8
 type: Request
 parentId: wrk_c8d98f74ad5b4df2b7bb57c5f8ff5a30
-modified: 1649793975208
+modified: 1649859559480
 created: 1649775591043
 url: "{{ _.URL_API_LAKALANTAS }}/api/data-mission"
 name: get data mission
@@ -13,7 +13,11 @@ parameters:
     value: "2"
     disabled: false
     id: pair_022b7b8825304bb9b1dc7835864388fd
-headers: []
+headers:
+  - id: pair_72dd211fcf8e4387803ed4e4da6c64f1
+    name: ""
+    value: ""
+    description: ""
 authentication:
   type: bearer
   token: "{% response 'body', 'req_47707546ca79452f946380061209d7ad',
