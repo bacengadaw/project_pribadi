@@ -1,26 +1,26 @@
-_id: req_47707546ca79452f946380061209d7ad
+_id: req_5cfb1b88dee249218c5e782d754d3852
 type: Request
-parentId: wrk_c8d98f74ad5b4df2b7bb57c5f8ff5a30
-modified: 1653932391663
-created: 1649663312363
-url: " {{ _.URL_LOCAL }}/api/login"
-name: Login
+parentId: fld_302727344c59471c8ff200f2f0e36821
+modified: 1653932461006
+created: 1653932356444
+url: "{{ _.URL_LOCAL }}api/login"
+name: Login Cjs
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-     "email": "kasatlantaspolresta_palembang@ditlantas-poldasumsel.id",
-     "password": "aaa123"
+      "email": "kepolisian01@yopmail.com",  
+      "password": "aaa123"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_69245c4413e441fc89b541544b21b303
+    id: pair_d87ebe6452594f3294b12dfdf2ecf65b
 authentication: {}
-metaSortKey: -1649663312428
+metaSortKey: -1653932356444
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
