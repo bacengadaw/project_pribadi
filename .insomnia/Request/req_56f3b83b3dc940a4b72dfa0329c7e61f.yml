@@ -1,0 +1,52 @@
+_id: req_56f3b83b3dc940a4b72dfa0329c7e61f
+type: Request
+parentId: fld_302727344c59471c8ff200f2f0e36821
+modified: 1654368196174
+created: 1654362509111
+url: "{{ _.URL_STAGING_CJS }}api/data-pranut/list-data-pranut"
+name: Get data prapenuntut
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_306420ab2dba4796afac21b436ce2d2a
+    name: query
+    value: ""
+    description: ""
+  - id: pair_378949e353d44a38bba30284219a9bb9
+    name: query_spdp
+    value: ""
+    description: ""
+  - id: pair_96c91a4f3b9d43a3b59b00214ece7151
+    name: query_tersangka
+    value: ""
+    description: ""
+  - id: pair_6723f80221dc4aa99e5a7534d48f05f8
+    name: query_jpu
+    value: ""
+    description: ""
+  - id: pair_3166a362c15141609f199afc4fd4a31e
+    name: query_penyidik
+    value: ""
+    description: ""
+  - id: pair_14680acd9b904809add6d0fc707538e7
+    name: status
+    value: ""
+    description: ""
+headers:
+  - id: pair_72dd211fcf8e4387803ed4e4da6c64f1
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_5cfb1b88dee249218c5e782d754d3852',
+    'b64::JC5kYXRhLnRva2Vu::46b', 'never', 60 %}"
+metaSortKey: -1653932356394
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

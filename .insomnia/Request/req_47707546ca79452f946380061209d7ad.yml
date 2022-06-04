@@ -1,9 +1,9 @@
 _id: req_47707546ca79452f946380061209d7ad
 type: Request
 parentId: fld_deb2e2206bc74af59c9065534d61c1fa
-modified: 1654362374058
+modified: 1654367736562
 created: 1649663312363
-url: " {{ _.URL_LOCAL }}api/login"
+url: " {{ _.URL_API_LAKALANTAS }}api/login"
 name: Login
 description: ""
 method: POST
