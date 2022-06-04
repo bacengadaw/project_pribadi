@@ -1,7 +1,7 @@
 _id: req_2e2b5654781c45d3a2d4f859a7b52ca8
 type: Request
-parentId: wrk_c8d98f74ad5b4df2b7bb57c5f8ff5a30
-modified: 1649859559480
+parentId: fld_deb2e2206bc74af59c9065534d61c1fa
+modified: 1654362372802
 created: 1649775591043
 url: "{{ _.URL_API_LAKALANTAS }}/api/data-mission"
 name: get data mission
@@ -22,7 +22,7 @@ authentication:
   type: bearer
   token: "{% response 'body', 'req_47707546ca79452f946380061209d7ad',
     'b64::JC5kYXRhLnRva2Vu::46b', 'never', 60 %}"
-metaSortKey: -1649703698170
+metaSortKey: -1649744084062
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,18 +1,20 @@
 _id: env_73e1f305396344eba42852bd3c0b3906
 type: Environment
 parentId: env_ba46be8e01ab4b72adaf4c81f03594c9
-modified: 1653932199277
+modified: 1653934416032
 created: 1649754489991
 name: New Environment
 data:
   URL_PRODUCTION: https://ditlantas-poldasumsel.id/
   URL_LOCAL: http://localhost:8000/
   URL_API_LAKALANTAS: https://api-lakalantas.ditlantas-poldasumsel.id/
+  URL_STAGING_CJS: https://staging.cjs-sumsel.id/
 dataPropertyOrder:
   "&":
     - URL_PRODUCTION
     - URL_LOCAL
     - URL_API_LAKALANTAS
+    - URL_STAGING_CJS
 color: "#453535"
 isPrivate: false
 metaSortKey: 1649754489991

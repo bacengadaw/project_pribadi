@@ -1,9 +1,9 @@
 _id: req_47707546ca79452f946380061209d7ad
 type: Request
-parentId: wrk_c8d98f74ad5b4df2b7bb57c5f8ff5a30
-modified: 1653932391663
+parentId: fld_deb2e2206bc74af59c9065534d61c1fa
+modified: 1654362374058
 created: 1649663312363
-url: " {{ _.URL_LOCAL }}/api/login"
+url: " {{ _.URL_LOCAL }}api/login"
 name: Login
 description: ""
 method: POST
@@ -20,7 +20,7 @@ headers:
     value: application/json
     id: pair_69245c4413e441fc89b541544b21b303
 authentication: {}
-metaSortKey: -1649663312428
+metaSortKey: -1649744084112
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
