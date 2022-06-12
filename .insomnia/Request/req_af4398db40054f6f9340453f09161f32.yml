@@ -1,26 +1,25 @@
-_id: req_5cfb1b88dee249218c5e782d754d3852
+_id: req_af4398db40054f6f9340453f09161f32
 type: Request
 parentId: fld_302727344c59471c8ff200f2f0e36821
-modified: 1654998305946
-created: 1653932356444
-url: "{{ _.URL_STAGING_CJS }}api/login"
-name: Login Cjs
+modified: 1654926743368
+created: 1654597595255
+url: "{{ _.URL_STAGING_CJS }}api/logout"
+name: Logout Cjs
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
-    {
-      "email": "kepolisian01@yopmail.com",  
-      "password": "aaa123"
-    }
+  text: ""
 parameters: []
 headers:
-  - name: Content-Type
+  - name: Accept
     value: application/json
     id: pair_d87ebe6452594f3294b12dfdf2ecf65b
-authentication: {}
-metaSortKey: -1653932356444
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_5cfb1b88dee249218c5e782d754d3852',
+    'b64::JC5kYXRhLnRva2Vu::46b', 'never', 60 %}"
+metaSortKey: -1653932356344
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,0 +1,28 @@
+_id: req_77237846bb314cce91e07fd535434fab
+type: Request
+parentId: fld_302727344c59471c8ff200f2f0e36821
+modified: 1654784590434
+created: 1654621719211
+url: "{{ _.URL_STAGING_CJS }}api/get-list-code-file"
+name: Get Data Filter Code
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_72dd211fcf8e4387803ed4e4da6c64f1
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_5cfb1b88dee249218c5e782d754d3852',
+    'b64::JC5kYXRhLnRva2Vu::46b', 'never', 60 %}"
+metaSortKey: -1653932356369
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

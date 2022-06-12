@@ -1,7 +1,7 @@
 _id: req_56f3b83b3dc940a4b72dfa0329c7e61f
 type: Request
 parentId: fld_302727344c59471c8ff200f2f0e36821
-modified: 1654368196174
+modified: 1654997888299
 created: 1654362509111
 url: "{{ _.URL_STAGING_CJS }}api/data-pranut/list-data-pranut"
 name: Get data prapenuntut
@@ -9,10 +9,6 @@ description: ""
 method: GET
 body: {}
 parameters:
-  - id: pair_306420ab2dba4796afac21b436ce2d2a
-    name: query
-    value: ""
-    description: ""
   - id: pair_378949e353d44a38bba30284219a9bb9
     name: query_spdp
     value: ""
@@ -33,6 +29,21 @@ parameters:
     name: status
     value: ""
     description: ""
+  - id: pair_9acf5671497c486da09d1885198a2763
+    name: pageSize
+    value: "10"
+    description: ""
+    disabled: true
+  - id: pair_50c1eafb59bd471a9b883bfe7dd0a761
+    name: query
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_7a4c5110d54b4d1fabd61f50b91b4e4e
+    name: query_daterange
+    value: 01/06/2022 - 04/06/2022
+    description: ""
+    disabled: true
 headers:
   - id: pair_72dd211fcf8e4387803ed4e4da6c64f1
     name: Accept

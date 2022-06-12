@@ -1,0 +1,25 @@
+_id: req_d591bfbf284b48bf99e60885b22fc1de
+type: Request
+parentId: fld_302727344c59471c8ff200f2f0e36821
+modified: 1654784045570
+created: 1654774960269
+url: "{{ _.URL_STAGING_CJS }}api/preview-pdf/data-pranut"
+name: Get Preview Pdf
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_eea1e6e9abcf4f098bdc1175e7307b20
+    name: file_perkara_id
+    value: "899"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1653932356356.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
