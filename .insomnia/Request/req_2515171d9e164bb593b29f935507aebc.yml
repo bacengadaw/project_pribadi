@@ -1,0 +1,47 @@
+_id: req_2515171d9e164bb593b29f935507aebc
+type: Request
+parentId: fld_cb58184d9a54417a90b7bda342ead749
+modified: 1656350457382
+created: 1656255805534
+url: "{{ _.URL_LOCAL }}api/data-pranut/list-file-by-perkara"
+name: Get list data file perkara
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_5ab97765ca1b400cbe1fd7c2117a8151
+    name: perkara_id
+    value: "10"
+    description: ""
+    disabled: false
+  - id: pair_9d79028700704ad599d1397349bd523d
+    name: page_file
+    value: "2"
+    description: ""
+    disabled: false
+  - id: pair_6d3f0df610364bc291038fc1b5266c77
+    name: page_tersangka
+    value: "25"
+    description: ""
+    disabled: true
+  - id: pair_66c6d7ff545f499eab6deb5535fe50a5
+    name: page_jaksa
+    value: "25"
+    description: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_5a8540e88bd440e68b5e594f1ba30a26
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_5cfb1b88dee249218c5e782d754d3852',
+    'b64::JC5kYXRhLnRva2Vu::46b', 'never', 60 %}"
+metaSortKey: -1653932356384.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,59 +1,39 @@
 _id: req_56f3b83b3dc940a4b72dfa0329c7e61f
 type: Request
-parentId: fld_302727344c59471c8ff200f2f0e36821
-modified: 1654997888299
+parentId: fld_cb58184d9a54417a90b7bda342ead749
+modified: 1656351007294
 created: 1654362509111
-url: "{{ _.URL_STAGING_CJS }}api/data-pranut/list-data-pranut"
+url: "{{ _.URL_LOCAL }}api/data-pranut/list-data-pranut"
 name: Get data prapenuntut
 description: ""
 method: GET
 body: {}
 parameters:
-  - id: pair_378949e353d44a38bba30284219a9bb9
-    name: query_spdp
-    value: ""
-    description: ""
-  - id: pair_96c91a4f3b9d43a3b59b00214ece7151
-    name: query_tersangka
-    value: ""
-    description: ""
-  - id: pair_6723f80221dc4aa99e5a7534d48f05f8
-    name: query_jpu
-    value: ""
-    description: ""
-  - id: pair_3166a362c15141609f199afc4fd4a31e
-    name: query_penyidik
-    value: ""
-    description: ""
-  - id: pair_14680acd9b904809add6d0fc707538e7
-    name: status
-    value: ""
-    description: ""
-  - id: pair_9acf5671497c486da09d1885198a2763
-    name: pageSize
+  - name: status
+    value: "1"
+    disabled: true
+    id: pair_dc6be2384aed47da8e322552ace539f5
+  - name: pageSize
     value: "10"
-    description: ""
     disabled: true
-  - id: pair_50c1eafb59bd471a9b883bfe7dd0a761
+    id: pair_a49cdef2981b4aee89ddfabeb3eb5a1e
+  - name: query_daterange
+    value: 17/05/2022 - 19/05/2022
+    disabled: false
+    id: pair_fd74563e7e994b3ab92fbc363415bb7e
+  - id: pair_c76303ad724c48b189255f63a8ccdb74
     name: query
-    value: ""
+    value: test
     description: ""
-    disabled: true
-  - id: pair_7a4c5110d54b4d1fabd61f50b91b4e4e
-    name: query_daterange
-    value: 01/06/2022 - 04/06/2022
-    description: ""
-    disabled: true
 headers:
-  - id: pair_72dd211fcf8e4387803ed4e4da6c64f1
-    name: Accept
+  - name: Accept
     value: application/json
-    description: ""
+    id: pair_5a8540e88bd440e68b5e594f1ba30a26
 authentication:
   type: bearer
   token: "{% response 'body', 'req_5cfb1b88dee249218c5e782d754d3852',
     'b64::JC5kYXRhLnRva2Vu::46b', 'never', 60 %}"
-metaSortKey: -1653932356394
+metaSortKey: -1653932356522.125
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

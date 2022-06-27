@@ -1,10 +1,10 @@
-_id: req_77237846bb314cce91e07fd535434fab
+_id: req_5862194e7e4c482ab85bf062dd422e14
 type: Request
-parentId: fld_302727344c59471c8ff200f2f0e36821
-modified: 1656254212838
-created: 1654621719211
-url: "{{ _.URL_LOCAL }}api/get-list-code-file"
-name: Get Data Filter Code
+parentId: fld_c07e1a7df22c4b99a3d2016ac5b9711b
+modified: 1656351064292
+created: 1656351056343
+url: "{{ _.URL_LOCAL }}api/dashboard"
+name: List data penanganan oleh kepolisian
 description: ""
 method: GET
 body: {}
@@ -18,7 +18,7 @@ authentication:
   type: bearer
   token: "{% response 'body', 'req_5cfb1b88dee249218c5e782d754d3852',
     'b64::JC5kYXRhLnRva2Vu::46b', 'never', 60 %}"
-metaSortKey: -1653932356369
+metaSortKey: -1653932356366.2656
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

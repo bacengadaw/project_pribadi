@@ -1,10 +1,10 @@
-_id: req_77237846bb314cce91e07fd535434fab
+_id: req_370858b1cb9b4d1c9f379997dd68b76e
 type: Request
 parentId: fld_302727344c59471c8ff200f2f0e36821
-modified: 1656254212838
-created: 1654621719211
-url: "{{ _.URL_LOCAL }}api/get-list-code-file"
-name: Get Data Filter Code
+modified: 1656050995066
+created: 1655039033194
+url: "{{ _.URL_STAGING_CJS }}api/get-list-data-status"
+name: Get List Data Status
 description: ""
 method: GET
 body: {}
@@ -18,7 +18,7 @@ authentication:
   type: bearer
   token: "{% response 'body', 'req_5cfb1b88dee249218c5e782d754d3852',
     'b64::JC5kYXRhLnRva2Vu::46b', 'never', 60 %}"
-metaSortKey: -1653932356369
+metaSortKey: -1653932356362.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
