@@ -1,14 +1,18 @@
 _id: req_1f43b1e8ca7a44d2b7134a41b55dce86
 type: Request
 parentId: fld_c07e1a7df22c4b99a3d2016ac5b9711b
-modified: 1656351095446
+modified: 1656515225079
 created: 1656351095284
-url: "{{ _.URL_LOCAL }}api/dashboard"
+url: "{{ _.URL_LOCAL }}api/dashboard/list-data-log-activity"
 name: List data logactivity
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - id: pair_85d85a40a5ea483cb87711498975420e
+    name: page_size
+    value: "10"
+    description: ""
 headers:
   - id: pair_72dd211fcf8e4387803ed4e4da6c64f1
     name: Accept

@@ -1,7 +1,7 @@
 _id: req_4978a17e3f194df2b221b482568e4303
 type: Request
 parentId: fld_cb58184d9a54417a90b7bda342ead749
-modified: 1656350460875
+modified: 1656411056785
 created: 1655920927214
 url: "{{ _.URL_LOCAL }}api/data-pranut/detail-perkara"
 name: Get detail data prapenuntut
