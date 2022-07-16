@@ -1,31 +1,28 @@
-_id: req_56f3b83b3dc940a4b72dfa0329c7e61f
+_id: req_03e2f376803a44f08e7600039c41d92f
 type: Request
-parentId: fld_cb58184d9a54417a90b7bda342ead749
-modified: 1657726603401
-created: 1654362509111
-url: "{{ _.URL_LOCAL }}api/data-pranut/list-data-pranut"
-name: Get data prapenuntut
+parentId: fld_302727344c59471c8ff200f2f0e36821
+modified: 1657956496361
+created: 1657481491864
+url: "{{ _.URL_STAGING_CJS
+  }}api/permohonan-perpanjangan-penahanan/list-data-kejaksaan"
+name: Get List Data Permohonan Perpanjangan Penahanan
 description: ""
 method: GET
 body: {}
 parameters:
-  - name: status
-    value: "1"
-    disabled: true
-    id: pair_dc6be2384aed47da8e322552ace539f5
   - name: pageSize
     value: "10"
-    disabled: true
+    disabled: false
     id: pair_a49cdef2981b4aee89ddfabeb3eb5a1e
-  - name: query_daterange
-    value: 17/05/2022 - 19/05/2022
-    disabled: true
-    id: pair_fd74563e7e994b3ab92fbc363415bb7e
-  - id: pair_c76303ad724c48b189255f63a8ccdb74
-    name: filter_code_file
-    value: berkas
+  - id: pair_47b7a8947d3b499887551e9242d53156
+    name: is_data
+    value: dewasa
     description: ""
     disabled: false
+  - id: pair_c1e4580c2cc04121991be03de0f74134
+    name: query
+    value: abimanyu
+    description: ""
 headers:
   - name: Accept
     value: application/json
@@ -34,7 +31,7 @@ authentication:
   type: bearer
   token: "{% response 'body', 'req_5cfb1b88dee249218c5e782d754d3852',
     'b64::JC5kYXRhLnRva2Vu::46b', 'never', 60 %}"
-metaSortKey: -1653932356522.125
+metaSortKey: -1653932356347.125
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

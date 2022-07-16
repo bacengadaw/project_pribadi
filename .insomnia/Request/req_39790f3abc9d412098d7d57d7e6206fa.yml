@@ -1,0 +1,35 @@
+_id: req_39790f3abc9d412098d7d57d7e6206fa
+type: Request
+parentId: fld_302727344c59471c8ff200f2f0e36821
+modified: 1657793863328
+created: 1657477340967
+url: "{{ _.URL_STAGING_CJS }}api/barang-bukti-narkotika/list-data"
+name: Get List Data Barang Bukti Narkoba
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: pageSize
+    value: "10"
+    disabled: false
+    id: pair_a49cdef2981b4aee89ddfabeb3eb5a1e
+  - id: pair_48af60c43f9643e5adc9ea8de6df8f22
+    name: search_lp
+    value: 12312ASDASD
+    description: ""
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_5a8540e88bd440e68b5e594f1ba30a26
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_5cfb1b88dee249218c5e782d754d3852',
+    'b64::JC5kYXRhLnRva2Vu::46b', 'never', 60 %}"
+metaSortKey: -1653932356350.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

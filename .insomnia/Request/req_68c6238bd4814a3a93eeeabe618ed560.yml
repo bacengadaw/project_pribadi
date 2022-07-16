@@ -1,31 +1,32 @@
-_id: req_56f3b83b3dc940a4b72dfa0329c7e61f
+_id: req_68c6238bd4814a3a93eeeabe618ed560
 type: Request
-parentId: fld_cb58184d9a54417a90b7bda342ead749
-modified: 1657726603401
-created: 1654362509111
-url: "{{ _.URL_LOCAL }}api/data-pranut/list-data-pranut"
-name: Get data prapenuntut
+parentId: fld_302727344c59471c8ff200f2f0e36821
+modified: 1657727222080
+created: 1657642635259
+url: "{{ _.URL_STAGING_CJS }}api/data-prapenuntut-lengkap/list-data"
+name: Data Pranut Lengkap
 description: ""
 method: GET
 body: {}
 parameters:
-  - name: status
-    value: "1"
-    disabled: true
-    id: pair_dc6be2384aed47da8e322552ace539f5
   - name: pageSize
     value: "10"
-    disabled: true
+    disabled: false
     id: pair_a49cdef2981b4aee89ddfabeb3eb5a1e
-  - name: query_daterange
-    value: 17/05/2022 - 19/05/2022
-    disabled: true
-    id: pair_fd74563e7e994b3ab92fbc363415bb7e
-  - id: pair_c76303ad724c48b189255f63a8ccdb74
-    name: filter_code_file
-    value: berkas
+  - id: pair_3434288cc0b74e65878fc9876f5c7283
+    name: date_range
+    value: 17/06/2022 - 19/07/2022
     description: ""
     disabled: false
+  - id: pair_cd1ed4e6af4e4fa885ffc56a3c4f6c36
+    name: query
+    value: test data 12312231
+    description: ""
+    disabled: false
+  - id: pair_9176dd3b469d4f85a2566ef69d7763b0
+    name: status
+    value: "3"
+    description: ""
 headers:
   - name: Accept
     value: application/json
@@ -34,7 +35,7 @@ authentication:
   type: bearer
   token: "{% response 'body', 'req_5cfb1b88dee249218c5e782d754d3852',
     'b64::JC5kYXRhLnRva2Vu::46b', 'never', 60 %}"
-metaSortKey: -1653932356522.125
+metaSortKey: -1653932356344.7812
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

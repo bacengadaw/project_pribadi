@@ -1,9 +1,9 @@
 _id: req_d591bfbf284b48bf99e60885b22fc1de
 type: Request
 parentId: fld_302727344c59471c8ff200f2f0e36821
-modified: 1654784045570
+modified: 1657479896881
 created: 1654774960269
-url: "{{ _.URL_STAGING_CJS }}api/preview-pdf/data-pranut"
+url: "{{ _.URL_LOCAL }}api/preview-pdf/data-pranut"
 name: Get Preview Pdf
 description: ""
 method: GET
@@ -12,6 +12,10 @@ parameters:
   - id: pair_eea1e6e9abcf4f098bdc1175e7307b20
     name: file_perkara_id
     value: "899"
+    description: ""
+  - id: pair_73c71501cc0b45c5900ff03dffb1fcc5
+    name: ""
+    value: ""
     description: ""
 headers: []
 authentication: {}

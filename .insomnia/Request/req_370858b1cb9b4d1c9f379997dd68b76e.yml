@@ -1,9 +1,9 @@
 _id: req_370858b1cb9b4d1c9f379997dd68b76e
 type: Request
 parentId: fld_302727344c59471c8ff200f2f0e36821
-modified: 1656411045531
+modified: 1657479760398
 created: 1655039033194
-url: "{{ _.URL_STAGING_CJS }}api/get-list-data-status"
+url: "{{ _.URL_LOCAL }}api/get-list-data-status"
 name: Get List Data Status
 description: ""
 method: GET

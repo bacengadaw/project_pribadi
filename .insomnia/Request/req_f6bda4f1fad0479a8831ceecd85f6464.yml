@@ -1,7 +1,7 @@
 _id: req_f6bda4f1fad0479a8831ceecd85f6464
 type: Request
 parentId: fld_cb58184d9a54417a90b7bda342ead749
-modified: 1656411057674
+modified: 1657957813096
 created: 1656255780640
 url: "{{ _.URL_STAGING_CJS }}api/data-pranut/list-tersangka-by-perkara"
 name: Get list data tersangka by perkara

@@ -1,7 +1,7 @@
 _id: req_a824d0b8fcc44658b45759b01c6fe778
 type: Request
 parentId: fld_cb58184d9a54417a90b7bda342ead749
-modified: 1656411067106
+modified: 1657975109999
 created: 1656255788237
 url: "{{ _.URL_STAGING_CJS }}api/data-pranut/list-jaksa-by-perkara"
 name: Get list data jaksa by perkara
