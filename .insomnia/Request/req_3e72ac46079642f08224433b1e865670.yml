@@ -1,0 +1,33 @@
+_id: req_3e72ac46079642f08224433b1e865670
+type: Request
+parentId: fld_86153d2d3a6341b098f7f50f019a53c9
+modified: 1658938281501
+created: 1657989372059
+url: "{{ _.URL_MAPPING_DEV }}api/list-data-perkara"
+name: List Data Perkara
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_b6a301844c4f45268a9d8f8520d27526
+    name: query
+    value: "1313333"
+    description: ""
+    disabled: true
+headers:
+  - id: pair_c0c284877f6741c19fc3cd8a4aee4364
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_c31f9271dfd1470fadaa284f9c421b2d',
+    'b64::JC5kYXRhLnRva2Vu::46b', 'never', 60 %}"
+metaSortKey: -1657980456770.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

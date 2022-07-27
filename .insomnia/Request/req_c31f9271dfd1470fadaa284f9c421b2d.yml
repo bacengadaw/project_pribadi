@@ -1,9 +1,9 @@
-_id: req_47707546ca79452f946380061209d7ad
+_id: req_c31f9271dfd1470fadaa284f9c421b2d
 type: Request
-parentId: fld_deb2e2206bc74af59c9065534d61c1fa
-modified: 1658936016520
-created: 1649663312363
-url: " {{ _.URL_API_LAKALANTAS }}api/login"
+parentId: fld_86153d2d3a6341b098f7f50f019a53c9
+modified: 1658938268809
+created: 1657975214636
+url: "{{ _.URL_MAPPING_DEV }}/api/login"
 name: Login
 description: ""
 method: POST
@@ -11,16 +11,16 @@ body:
   mimeType: application/json
   text: |-
     {
-     "email": "kasatlantaspolresta_palembang@ditlantas-poldasumsel.id",
-     "password": "aaa123"
+      "email": "admin@mappingcrime-poldasumsel.id",  
+      "password": "aaa123"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_69245c4413e441fc89b541544b21b303
+    id: pair_cb23d3f87ecd4e999c9baf0219e61e97
 authentication: {}
-metaSortKey: -1649744084112
+metaSortKey: -1657975214636
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

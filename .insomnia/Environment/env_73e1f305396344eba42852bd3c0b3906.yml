@@ -1,7 +1,7 @@
 _id: env_73e1f305396344eba42852bd3c0b3906
 type: Environment
 parentId: env_ba46be8e01ab4b72adaf4c81f03594c9
-modified: 1657107182489
+modified: 1658081673166
 created: 1649754489991
 name: New Environment
 data:
@@ -10,6 +10,7 @@ data:
   URL_API_LAKALANTAS: https://api-lakalantas.ditlantas-poldasumsel.id/
   URL_STAGING_CJS: https://staging.cjs-sumsel.id/
   URL_CJS: https://cjs-sumsel.id/
+  URL_MAPPING_DEV: https://dev.mappingcrime-poldasumsel.id/
 dataPropertyOrder:
   "&":
     - URL_PRODUCTION
@@ -17,6 +18,7 @@ dataPropertyOrder:
     - URL_API_LAKALANTAS
     - URL_STAGING_CJS
     - URL_CJS
+    - URL_MAPPING_DEV
 color: "#453535"
 isPrivate: false
 metaSortKey: 1649754489991

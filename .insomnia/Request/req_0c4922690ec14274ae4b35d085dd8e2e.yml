@@ -1,10 +1,10 @@
-_id: req_eef9d345d1514b1eb07d5ac99b918f5b
+_id: req_0c4922690ec14274ae4b35d085dd8e2e
 type: Request
-parentId: fld_deb2e2206bc74af59c9065534d61c1fa
-modified: 1658936018345
-created: 1649744083912
-url: "{{ _.URL_LOCAL }}/api/log-activity"
-name: log activity
+parentId: fld_86153d2d3a6341b098f7f50f019a53c9
+modified: 1658938316282
+created: 1658935817803
+url: "{{ _.URL_MAPPING_DEV }}api/preview-pdf-perkara/197690480.pdf"
+name: get preview pdf
 description: ""
 method: GET
 body: {}
@@ -12,9 +12,9 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: "{% response 'body', 'req_47707546ca79452f946380061209d7ad',
+  token: "{% response 'body', 'req_c31f9271dfd1470fadaa284f9c421b2d',
     'b64::JC5kYXRhLnRva2Vu::46b', 'never', 60 %}"
-metaSortKey: -1649744083912
+metaSortKey: -1657983077837.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

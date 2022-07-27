@@ -1,24 +1,24 @@
-_id: req_77237846bb314cce91e07fd535434fab
+_id: req_bcd686ab97f8497ea395acc070c8c646
 type: Request
-parentId: fld_302727344c59471c8ff200f2f0e36821
-modified: 1657987995025
-created: 1654621719211
-url: "{{ _.URL_LOCAL }}api/get-list-code-file"
-name: Get Data Filter Code
+parentId: fld_86153d2d3a6341b098f7f50f019a53c9
+modified: 1658937632446
+created: 1658163353221
+url: "{{ _.URL_MAPPING_DEV }}api/dashboard"
+name: Dashboard
 description: ""
 method: GET
 body: {}
 parameters: []
 headers:
-  - id: pair_72dd211fcf8e4387803ed4e4da6c64f1
+  - id: pair_c0c284877f6741c19fc3cd8a4aee4364
     name: Accept
     value: application/json
     description: ""
 authentication:
   type: bearer
-  token: "{% response 'body', 'req_5cfb1b88dee249218c5e782d754d3852',
+  token: "{% response 'body', 'req_c31f9271dfd1470fadaa284f9c421b2d',
     'b64::JC5kYXRhLnRva2Vu::46b', 'never', 60 %}"
-metaSortKey: -1653932356369
+metaSortKey: -1657976525169.625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
